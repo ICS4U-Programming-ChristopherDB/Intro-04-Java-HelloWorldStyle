@@ -15,8 +15,8 @@ public final class HelloWorldStyle {
      * Private constructor to prevent instantiation.
      */
     private HelloWorldStyle() {
-        throw new UnsupportedOperationException
-        ("This class cannot be instantiated.");
+        throw new UnsupportedOperationException(
+            "This class cannot be instantiated.");
     }
 
     /**
