@@ -11,21 +11,18 @@ package com.example;
 // HelloWorldStyle class
 public final class HelloWorldStyle {
 
-    /**
-     * Private constructor to prevent instantiation.
-     */
-    private HelloWorldStyle() {
-        throw new UnsupportedOperationException(
-            "This class cannot be instantiated.");
-    }
+  /** Private constructor to prevent instantiation. */
+  private HelloWorldStyle() {
+    throw new UnsupportedOperationException("This class cannot be instantiated.");
+  }
 
-    /**
-     * This is the main method.
-     *
-     * @param args Unused
-     */
-    public static void main(final String[] args) {
-        System.out.println("Hello, Spencer!");
-        System.out.println("Look at this funny face: ( ͡° ʖ ͡°)");
-    }
+  /**
+   * This is the main method.
+   *
+   * @param args Unused
+   */
+  public static void main(final String[] args) {
+    System.out.println("Hello, Spencer!");
+    System.out.println("Look at this funny face: ( ͡° ʖ ͡°)");
+  }
 }
